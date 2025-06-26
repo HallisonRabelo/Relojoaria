@@ -8,7 +8,7 @@
 }
 body{
     display: grid;
-    grid-template-rows: 100px 500px 600px 300px;
+    grid-template-rows: 100px 500px 700px 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 
 }
@@ -49,7 +49,7 @@ section#banner{
 }
 main{
     grid-area: 3/1/4/2;
-    
+    background-color: rgba(128, 128, 128, 0.555);
     
 }
 section#produtos{
