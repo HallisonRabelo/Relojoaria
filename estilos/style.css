@@ -73,31 +73,27 @@ section#produtos{
     background-repeat: no-repeat;
     background-size: contain;
 }
-p{
+.caixa>p{
     font-family: 'Montserrat';
     font-weight: 500  ;
     font-size: 1.3em;
     padding: 5px;
 }
-#pdt1{
+footer{
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row ;
+    justify-content: center;
     align-items: center;
-    text-align: center;
+  
 }
-
-#pdt2{
-    
+.ftabas{
+    width:300px;
+    margin: 30px;
 }
-#pdt3{
-    
+.ftabas>h2{
+    margin: 5px;
 }
-#pdt4{
-    
-}
-#pdt5{
-    
-}
-#pdt6{
-    
+#copyright{
+    display: block;
+    align-items: end;
 }
