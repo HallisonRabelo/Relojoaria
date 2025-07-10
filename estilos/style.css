@@ -126,20 +126,60 @@ footer{
     justify-content: center;
 
 }
+    @media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
 
-@media (max-width: 768px){
-    header{
-        display: flex;
-        flex-flow: column nowrap;
-        
-    }
-    h1{
-        margin: auto;
-    }
-    nav{
-        display: flex;
-        flex-flow: column nowrap;
-        text-align: center;
-        margin: auto;
-    }
+  h1#logo {
+    padding: 10px;
+    font-size: 2.5em;
+    text-align: center;
+  }
+
+  nav {
+    font-size: 1em;
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+  }
+
+  .link {
+    padding: 10px 0;
+  }
+  section#banner{
+    display: none;
+  }
+  section#produtos,
+  footer {
+    width: 100%;
+    padding: 0 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pdt {
+    width: 90%;
+    max-width: 300px;
+  }
+
+  .caixa > p {
+    text-align: center;
+  }
+
+  .ftabas {
+    width: 90%;
+    margin: 15px 0;
+    text-align: center;
+  }
+
+  #copyright {
+    font-size: 0.9em;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 }
